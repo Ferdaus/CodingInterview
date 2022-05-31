@@ -21,7 +21,7 @@ public class Chapter1_1 {
                 map.put(str.charAt(i),1);
             i++;
         }
-        
+
         //Iterable it =
         for(Map.Entry element: map.entrySet())
             System.out.println(element.getKey()+ " "+ element.getValue());
